@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod && jscat dist/angular-web-component/runtime-es2015.c9afb3256f2870e161de.js dist/angular-web-component/polyfills-es2015.441e46d2a3c2ef585d7f.js dist/angular-web-component/main-es2015.d4a450982701bea47a57.js > example/info-box.js && cp dist/angular-web-component/styles.*.css example/info-box.css",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -15,10 +15,13 @@
     "@angular/common": "~9.1.0",
     "@angular/compiler": "~9.1.0",
     "@angular/core": "~9.1.0",
+    "@angular/elements": "^9.1.0",
     "@angular/forms": "~9.1.0",
     "@angular/platform-browser": "~9.1.0",
     "@angular/platform-browser-dynamic": "~9.1.0",
     "@angular/router": "~9.1.0",
+    "document-register-element": "^1.8.1",
+    "jscat": "0.0.2",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
