@@ -14,10 +14,12 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-custom compont is created . named as 'info-box' . If you wnat reuse the component run below command inside the "angular-web-component" folder
+custom component  is created . named as 'info-box' . If you want reuse the component run below command inside the "angular-web-component" folder
 "npm run-script build"
 
-It will create a js file under example/info-box.js page and now we are able to reuse the component.
+It will create a is file under example/info-box.js page and now we are able to reuse the component.
+
+please find "((example/index.html)	"External application using custom Web Component" )folder to see/test how custom element  is included in external application.
 
 
 
